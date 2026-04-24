@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="todo-page">
+
+<a href="index.html">⬅ Back</a>
+
+<div class="todo-card">
+
+  <div class="header">
+    <div class="title-box">TO DO</div>
+    <img src="https://i.pinimg.com/736x/c8/06/47/c80647cca568ee6331ed082b185a31d2.jpg" class="image">
+  </div>
+
+  <div class="add-task">
+    <input type="text" id="taskInput" placeholder="Write your task...">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <ul class="todo-list" id="todoList"></ul>
+
+</div>
+
+<script src="todo.js"></script>
+</body>
+</html>
