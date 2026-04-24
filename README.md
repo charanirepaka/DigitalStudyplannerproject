@@ -15,7 +15,7 @@ HTML | CSS | JavaScript
 2. Select Scheduler or To-Do
 
  🌐 Live Demo
-(Add your GitHub Pages link here)
+(https://charanirepaka.github.io/DigitalStudyplannerproject/)
 
  👩‍💻 Author
 Sreesai Charani
