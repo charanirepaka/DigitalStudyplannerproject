@@ -1,0 +1,94 @@
+/* ===== TO-DO PAGE STYLES ===== */
+
+.todo-page {
+  background: linear-gradient(135deg, #CBE888, #A3D977);
+}
+
+/* Card */
+.todo-card {
+  background: #FEFEF8;
+  width: 380px;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  margin: auto;
+  margin-top: 40px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-box {
+  border: 3px solid #5b2d1b;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 32px;
+  color: #5b2d1b;
+}
+
+/* Image fix */
+.image {
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Input */
+.add-task {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px solid #5b2d1b;
+}
+
+.add-task button {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #5b2d1b;
+  color: white;
+  cursor: pointer;
+}
+
+/* List */
+.todo-list {
+  list-style: none;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-list span {
+  flex: 1;
+  margin-left: 10px;
+  border-bottom: 2px solid #5b2d1b;
+}
+
+/* Completed */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Delete */
+.delete-btn {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
